@@ -66,6 +66,7 @@ function PaginationNumber({
   const className = clsx(
     'flex h-10 w-10 items-center justify-center text-sm border',
     {
+               // penerapan clsx dimana digunakan untuk memberian warna yang berbeda di kondisi tertentu
       'rounded-l-md': position === 'first' || position === 'single',
       'rounded-r-md': position === 'last' || position === 'single',
       'z-10 bg-blue-600 border-blue-600 text-white': isActive,
